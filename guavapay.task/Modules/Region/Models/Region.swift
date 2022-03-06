@@ -7,31 +7,28 @@
 
 import Foundation
 
-enum Regions: CaseIterable {
-    case asia
-    case africa
-    case northAmerica
-    case southAmerica
-    case antarctica
-    case europe
-    case australia
+enum Regions: String, Codable, CaseIterable {
+    case asia = "Asia"
+    case africa = "Africa"
+    case northAmerica = "North America"
+    case southAmerica = "South America"
+    case europe = "Europe"
+    case australia = "Australia"
     
-    var name: String {
+    var regionType: String {
         switch self {
         case .asia:
-            return "Asia"
+            return "region"
         case .africa:
-            return "Africa"
+            return "region"
         case .northAmerica:
-            return "North America"
+            return "subregion"
         case .southAmerica:
-            return "South America"
-        case .antarctica:
-            return "Antarctica"
+            return "subregion"
         case .europe:
-            return "Europe"
+            return "region"
         case .australia:
-            return "Australia"
+            return "region"
         }
     }
 }

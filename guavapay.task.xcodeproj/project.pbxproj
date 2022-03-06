@@ -25,6 +25,8 @@
 		5C7C1D6827D4D72500C7F958 /* UITabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D6727D4D72500C7F958 /* UITabController.swift */; };
 		5C7C1D6F27D4D8E300C7F958 /* SearchCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D6E27D4D8E300C7F958 /* SearchCountryViewController.swift */; };
 		5C7C1D7527D4DDC600C7F958 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D7427D4DDC600C7F958 /* UIColor+extension.swift */; };
+		5C7C1D7B27D52A2600C7F958 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D7A27D52A2600C7F958 /* Country.swift */; };
+		5C7C1D7D27D5372F00C7F958 /* CountryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D7C27D5372F00C7F958 /* CountryAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		5C7C1D6727D4D72500C7F958 /* UITabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabController.swift; sourceTree = "<group>"; };
 		5C7C1D6E27D4D8E300C7F958 /* SearchCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCountryViewController.swift; sourceTree = "<group>"; };
 		5C7C1D7427D4DDC600C7F958 /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		5C7C1D7A27D52A2600C7F958 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		5C7C1D7C27D5372F00C7F958 /* CountryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				5C7C1D5827D4786A00C7F958 /* Base */,
+				5C7C1D7C27D5372F00C7F958 /* CountryAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				5C7C1D6327D4D4CB00C7F958 /* Region.swift */,
+				5C7C1D7A27D52A2600C7F958 /* Country.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -437,6 +443,8 @@
 				5C7C1D1D27D4738100C7F958 /* RegionsViewController.swift in Sources */,
 				5C7C1D5B27D47C0200C7F958 /* SharedNetworkManager.swift in Sources */,
 				5C7C1D7527D4DDC600C7F958 /* UIColor+extension.swift in Sources */,
+				5C7C1D7B27D52A2600C7F958 /* Country.swift in Sources */,
+				5C7C1D7D27D5372F00C7F958 /* CountryAPI.swift in Sources */,
 				5C7C1D5127D4770600C7F958 /* NetworkError.swift in Sources */,
 				5C7C1D5527D4780800C7F958 /* URLSessionLayer.swift in Sources */,
 				5C7C1D5727D4786600C7F958 /* NetworkManager.swift in Sources */,
