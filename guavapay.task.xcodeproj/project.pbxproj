@@ -8,14 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5C7C1D1927D4738100C7F958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D1827D4738100C7F958 /* AppDelegate.swift */; };
-		5C7C1D1B27D4738100C7F958 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D1A27D4738100C7F958 /* SceneDelegate.swift */; };
-		5C7C1D1D27D4738100C7F958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D1C27D4738100C7F958 /* ViewController.swift */; };
-		5C7C1D2027D4738100C7F958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7C1D1E27D4738100C7F958 /* Main.storyboard */; };
+		5C7C1D1D27D4738100C7F958 /* RegionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D1C27D4738100C7F958 /* RegionsViewController.swift */; };
 		5C7C1D2227D4738200C7F958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C7C1D2127D4738200C7F958 /* Assets.xcassets */; };
 		5C7C1D2527D4738200C7F958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7C1D2327D4738200C7F958 /* LaunchScreen.storyboard */; };
 		5C7C1D3027D4738200C7F958 /* guavapay_taskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D2F27D4738200C7F958 /* guavapay_taskTests.swift */; };
 		5C7C1D3A27D4738200C7F958 /* guavapay_taskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D3927D4738200C7F958 /* guavapay_taskUITests.swift */; };
 		5C7C1D3C27D4738200C7F958 /* guavapay_taskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D3B27D4738200C7F958 /* guavapay_taskUITestsLaunchTests.swift */; };
+		5C7C1D4E27D4757F00C7F958 /* UI+New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D4D27D4757F00C7F958 /* UI+New.swift */; };
+		5C7C1D5127D4770600C7F958 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D5027D4770600C7F958 /* NetworkError.swift */; };
+		5C7C1D5327D4775800C7F958 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D5227D4775800C7F958 /* APIProtocol.swift */; };
+		5C7C1D5527D4780800C7F958 /* URLSessionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D5427D4780800C7F958 /* URLSessionLayer.swift */; };
+		5C7C1D5727D4786600C7F958 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D5627D4786600C7F958 /* NetworkManager.swift */; };
+		5C7C1D5B27D47C0200C7F958 /* SharedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D5A27D47C0200C7F958 /* SharedNetworkManager.swift */; };
+		5C7C1D5E27D47D5F00C7F958 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5C7C1D5D27D47D5F00C7F958 /* SnapKit */; };
+		5C7C1D6427D4D4CB00C7F958 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D6327D4D4CB00C7F958 /* Region.swift */; };
+		5C7C1D6827D4D72500C7F958 /* UITabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D6727D4D72500C7F958 /* UITabController.swift */; };
+		5C7C1D6F27D4D8E300C7F958 /* SearchCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D6E27D4D8E300C7F958 /* SearchCountryViewController.swift */; };
+		5C7C1D7527D4DDC600C7F958 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C1D7427D4DDC600C7F958 /* UIColor+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +47,7 @@
 /* Begin PBXFileReference section */
 		5C7C1D1527D4738100C7F958 /* guavapay.task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guavapay.task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7C1D1827D4738100C7F958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C7C1D1A27D4738100C7F958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C7C1D1C27D4738100C7F958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C7C1D1F27D4738100C7F958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C7C1D1C27D4738100C7F958 /* RegionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsViewController.swift; sourceTree = "<group>"; };
 		5C7C1D2127D4738200C7F958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C7C1D2427D4738200C7F958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C7C1D2627D4738200C7F958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,16 @@
 		5C7C1D3527D4738200C7F958 /* guavapay.taskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guavapay.taskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7C1D3927D4738200C7F958 /* guavapay_taskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guavapay_taskUITests.swift; sourceTree = "<group>"; };
 		5C7C1D3B27D4738200C7F958 /* guavapay_taskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guavapay_taskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C7C1D4D27D4757F00C7F958 /* UI+New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+New.swift"; sourceTree = "<group>"; };
+		5C7C1D5027D4770600C7F958 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5C7C1D5227D4775800C7F958 /* APIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
+		5C7C1D5427D4780800C7F958 /* URLSessionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionLayer.swift; sourceTree = "<group>"; };
+		5C7C1D5627D4786600C7F958 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5C7C1D5A27D47C0200C7F958 /* SharedNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedNetworkManager.swift; sourceTree = "<group>"; };
+		5C7C1D6327D4D4CB00C7F958 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		5C7C1D6727D4D72500C7F958 /* UITabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabController.swift; sourceTree = "<group>"; };
+		5C7C1D6E27D4D8E300C7F958 /* SearchCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCountryViewController.swift; sourceTree = "<group>"; };
+		5C7C1D7427D4DDC600C7F958 /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7C1D5E27D47D5F00C7F958 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +117,11 @@
 		5C7C1D1727D4738100C7F958 /* guavapay.task */ = {
 			isa = PBXGroup;
 			children = (
-				5C7C1D1827D4738100C7F958 /* AppDelegate.swift */,
-				5C7C1D1A27D4738100C7F958 /* SceneDelegate.swift */,
-				5C7C1D1C27D4738100C7F958 /* ViewController.swift */,
-				5C7C1D1E27D4738100C7F958 /* Main.storyboard */,
-				5C7C1D2127D4738200C7F958 /* Assets.xcassets */,
-				5C7C1D2327D4738200C7F958 /* LaunchScreen.storyboard */,
-				5C7C1D2627D4738200C7F958 /* Info.plist */,
+				5C7C1D4827D4750E00C7F958 /* App */,
+				5C7C1D4927D4751600C7F958 /* Modules */,
+				5C7C1D4C27D4755C00C7F958 /* Extensions */,
+				5C7C1D4B27D4753100C7F958 /* Network */,
+				5C7C1D7127D4DAB700C7F958 /* Resources */,
 			);
 			path = guavapay.task;
 			sourceTree = "<group>";
@@ -127,6 +143,160 @@
 			path = guavapay.taskUITests;
 			sourceTree = "<group>";
 		};
+		5C7C1D4827D4750E00C7F958 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D1827D4738100C7F958 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5C7C1D4927D4751600C7F958 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D6527D4D71100C7F958 /* Base */,
+				5C7C1D4A27D4752500C7F958 /* Region */,
+				5C7C1D6A27D4D89B00C7F958 /* SearchCountry */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5C7C1D4A27D4752500C7F958 /* Region */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D6127D4D45C00C7F958 /* ViewControllers */,
+				5C7C1D7227D4DB1700C7F958 /* ViewModel */,
+				5C7C1D6227D4D46500C7F958 /* Views */,
+				5C7C1D6027D4D45600C7F958 /* Models */,
+			);
+			path = Region;
+			sourceTree = "<group>";
+		};
+		5C7C1D4B27D4753100C7F958 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D5827D4786A00C7F958 /* Base */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5C7C1D4C27D4755C00C7F958 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D4D27D4757F00C7F958 /* UI+New.swift */,
+				5C7C1D7427D4DDC600C7F958 /* UIColor+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5C7C1D5827D4786A00C7F958 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D5027D4770600C7F958 /* NetworkError.swift */,
+				5C7C1D5227D4775800C7F958 /* APIProtocol.swift */,
+				5C7C1D5427D4780800C7F958 /* URLSessionLayer.swift */,
+				5C7C1D5627D4786600C7F958 /* NetworkManager.swift */,
+				5C7C1D5A27D47C0200C7F958 /* SharedNetworkManager.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5C7C1D6027D4D45600C7F958 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D6327D4D4CB00C7F958 /* Region.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C7C1D6127D4D45C00C7F958 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D1C27D4738100C7F958 /* RegionsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5C7C1D6227D4D46500C7F958 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C7C1D6527D4D71100C7F958 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D6627D4D71700C7F958 /* Controllers */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5C7C1D6627D4D71700C7F958 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D6727D4D72500C7F958 /* UITabController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5C7C1D6A27D4D89B00C7F958 /* SearchCountry */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D6D27D4D8BA00C7F958 /* ViewControllers */,
+				5C7C1D7327D4DB2600C7F958 /* ViewModel */,
+				5C7C1D6C27D4D8B600C7F958 /* Views */,
+				5C7C1D6B27D4D8B200C7F958 /* Models */,
+			);
+			path = SearchCountry;
+			sourceTree = "<group>";
+		};
+		5C7C1D6B27D4D8B200C7F958 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C7C1D6C27D4D8B600C7F958 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C7C1D6D27D4D8BA00C7F958 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D6E27D4D8E300C7F958 /* SearchCountryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5C7C1D7127D4DAB700C7F958 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C1D2127D4738200C7F958 /* Assets.xcassets */,
+				5C7C1D2327D4738200C7F958 /* LaunchScreen.storyboard */,
+				5C7C1D2627D4738200C7F958 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5C7C1D7227D4DB1700C7F958 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5C7C1D7327D4DB2600C7F958 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +313,9 @@
 			dependencies = (
 			);
 			name = guavapay.task;
+			packageProductDependencies = (
+				5C7C1D5D27D47D5F00C7F958 /* SnapKit */,
+			);
 			productName = guavapay.task;
 			productReference = 5C7C1D1527D4738100C7F958 /* guavapay.task.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +388,9 @@
 				Base,
 			);
 			mainGroup = 5C7C1D0C27D4738100C7F958;
+			packageReferences = (
+				5C7C1D5C27D47D5F00C7F958 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 5C7C1D1627D4738100C7F958 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +409,6 @@
 			files = (
 				5C7C1D2527D4738200C7F958 /* LaunchScreen.storyboard in Resources */,
 				5C7C1D2227D4738200C7F958 /* Assets.xcassets in Resources */,
-				5C7C1D2027D4738100C7F958 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +433,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C7C1D1D27D4738100C7F958 /* ViewController.swift in Sources */,
+				5C7C1D6427D4D4CB00C7F958 /* Region.swift in Sources */,
+				5C7C1D1D27D4738100C7F958 /* RegionsViewController.swift in Sources */,
+				5C7C1D5B27D47C0200C7F958 /* SharedNetworkManager.swift in Sources */,
+				5C7C1D7527D4DDC600C7F958 /* UIColor+extension.swift in Sources */,
+				5C7C1D5127D4770600C7F958 /* NetworkError.swift in Sources */,
+				5C7C1D5527D4780800C7F958 /* URLSessionLayer.swift in Sources */,
+				5C7C1D5727D4786600C7F958 /* NetworkManager.swift in Sources */,
+				5C7C1D4E27D4757F00C7F958 /* UI+New.swift in Sources */,
+				5C7C1D6F27D4D8E300C7F958 /* SearchCountryViewController.swift in Sources */,
+				5C7C1D5327D4775800C7F958 /* APIProtocol.swift in Sources */,
 				5C7C1D1927D4738100C7F958 /* AppDelegate.swift in Sources */,
-				5C7C1D1B27D4738100C7F958 /* SceneDelegate.swift in Sources */,
+				5C7C1D6827D4D72500C7F958 /* UITabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +481,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5C7C1D1E27D4738100C7F958 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C7C1D1F27D4738100C7F958 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5C7C1D2327D4738200C7F958 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,12 +617,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KL26W3H8V7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = guavapay.task/Info.plist;
+				INFOPLIST_FILE = guavapay.task/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,12 +646,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KL26W3H8V7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = guavapay.task/Info.plist;
+				INFOPLIST_FILE = guavapay.task/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -604,6 +782,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C7C1D5C27D47D5F00C7F958 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C7C1D5D27D47D5F00C7F958 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C7C1D5C27D47D5F00C7F958 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C7C1D0D27D4738100C7F958 /* Project object */;
 }
