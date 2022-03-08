@@ -26,8 +26,11 @@ class RegionsViewController: BaseViewController {
 
 extension RegionsViewController {
     private func setupView() {
+        navigationItem.title = "Regions"
+        
         let tableView = UITableView.new {
             $0.rowHeight = 45
+            $0.backgroundColor = .clear
             $0.showsVerticalScrollIndicator = false
             $0.showsHorizontalScrollIndicator = false
             $0.tableFooterView = UIView()

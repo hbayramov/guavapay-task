@@ -31,9 +31,11 @@ class CountriesViewController: BaseViewController {
 
 extension CountriesViewController {
     private func setupView() {
+        navigationItem.title = "Countries"
         
         let tableView = UITableView.new {
             $0.rowHeight = 60
+            $0.backgroundColor = .clear
             $0.showsVerticalScrollIndicator = false
             $0.showsHorizontalScrollIndicator = false
             $0.tableFooterView = UIView()

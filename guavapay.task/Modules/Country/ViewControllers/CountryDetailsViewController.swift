@@ -36,6 +36,8 @@ class CountryDetailsViewController: BaseViewController {
 
 extension CountryDetailsViewController {
     private func setupView() {
+        navigationItem.title = viewModel.country.name?.common
+        
         let flagLabel = UILabel.new {
             $0.textAlignment = .left
             $0.text = viewModel.country.flag
@@ -75,6 +77,7 @@ extension CountryDetailsViewController {
         
         tableView = UITableView.new {
             $0.rowHeight = 60
+            $0.backgroundColor = .clear
             $0.showsVerticalScrollIndicator = false
             $0.showsHorizontalScrollIndicator = false
             $0.tableFooterView = UIView()

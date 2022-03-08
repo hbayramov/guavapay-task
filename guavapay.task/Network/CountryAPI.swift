@@ -10,12 +10,14 @@ import Foundation
 enum CountryAPI: APIProtocol {
     case countries(String)
     case subregion(String)
+    case search(String)
     case countriesByCodes([String: String])
     
     var method: HTTPMethod {
         switch self {
         case .countries,
                 .subregion,
+                .search,
                 .countriesByCodes:
             return .get
         }
@@ -27,6 +29,8 @@ enum CountryAPI: APIProtocol {
             return "/region/\(name)"
         case .subregion(let name):
             return "/subregion/\(name)"
+        case .search(let name):
+            return "/name/\(name)"
         case .countriesByCodes:
             return "/alpha"
         }
@@ -35,7 +39,8 @@ enum CountryAPI: APIProtocol {
     var parameters: [String: Any] {
         switch self {
         case .countries,
-                .subregion:
+                .subregion,
+                .search:
             return [:]
         case .countriesByCodes(let params):
             return params
@@ -50,6 +55,7 @@ enum CountryAPI: APIProtocol {
         switch self {
         case .countries,
                 .subregion,
+                .search,
                 .countriesByCodes:
             return .query(.get)
         }
