@@ -39,7 +39,7 @@ protocol APIProtocol {
 }
 
 enum BaseUrl: String {
-    case development = "https://restcountries.com"
+    case development = "restcountries.com"
     case production = "prod url"
 }
 
@@ -47,11 +47,7 @@ extension APIProtocol {
     var method: HTTPMethod { return .get }
     var scheme: URLScheme { return .http }
     var host: String {
-        #if DEBUG
-        return BaseUrl.production.rawValue
-        #else
         return BaseUrl.development.rawValue
-        #endif
     }
     var version: String { return "/v3.1" }
     var parameters: [String: Any] { return [:] }

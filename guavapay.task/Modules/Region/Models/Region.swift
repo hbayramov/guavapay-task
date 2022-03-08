@@ -14,21 +14,4 @@ enum Regions: String, Codable, CaseIterable {
     case southAmerica = "South America"
     case europe = "Europe"
     case australia = "Australia"
-    
-    var regionType: String {
-        switch self {
-        case .asia:
-            return "region"
-        case .africa:
-            return "region"
-        case .northAmerica:
-            return "subregion"
-        case .southAmerica:
-            return "subregion"
-        case .europe:
-            return "region"
-        case .australia:
-            return "region"
-        }
-    }
 }

@@ -9,11 +9,13 @@ import Foundation
 
 enum CountryAPI: APIProtocol {
     case countries(String)
+    case subregion(String)
     case countriesByCodes([String: String])
     
     var method: HTTPMethod {
         switch self {
         case .countries,
+                .subregion,
                 .countriesByCodes:
             return .get
         }
@@ -23,14 +25,17 @@ enum CountryAPI: APIProtocol {
         switch self {
         case .countries(let name):
             return "/region/\(name)"
+        case .subregion(let name):
+            return "/subregion/\(name)"
         case .countriesByCodes:
-            return "alpha"
+            return "/alpha"
         }
     }
     
     var parameters: [String: Any] {
         switch self {
-        case .countries:
+        case .countries,
+                .subregion:
             return [:]
         case .countriesByCodes(let params):
             return params
@@ -44,8 +49,13 @@ enum CountryAPI: APIProtocol {
     var parameterType: ParameterType {
         switch self {
         case .countries,
+                .subregion,
                 .countriesByCodes:
             return .query(.get)
         }
+    }
+    
+    var isAuthNeeded: Bool {
+        return false
     }
 }

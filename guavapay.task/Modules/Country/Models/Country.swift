@@ -12,7 +12,6 @@ struct Country: Decodable {
     var flag: String?
     var currencies: [String: Currency]?
     var latlng: [Double]?
-    var region: Regions?
     var subRegion: String?
     var borders: [String]?
     var neighbors: [Country]?
